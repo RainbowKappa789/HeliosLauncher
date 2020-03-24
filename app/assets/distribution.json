@@ -1,39 +1,39 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
+        "clientId": "691908916086439959",
+        "smallImageText": "CraftWorld Empires",
+        "smallImageKey": "main"
     },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
-    "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
+    "rss": "https://http://www.twitrss.me/twitter_user_to_rss/?user=rainbowkappamc",
     "servers": [
         {
-            "id": "WesterosCraft-1.11.2",
-            "name": "WesterosCraft Production Server",
-            "description": "Main WesterosCraft server. Connect to enter the Realm.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
-            "version": "3.9.4",
-            "address": "mc.westeroscraft.com",
-            "minecraftVersion": "1.11.2",
+            "id": "CraftWorld",
+            "name": "CraftWorld Empires",
+            "description": "Main CraftWorld Modded server. Connect to Play.",
+            "icon": "",
+            "version": "1.0.0",
+            "address": "craftworld.my.pebble.host",
+            "minecraftVersion": "1.12.2",
             "discord": {
-                "shortId": "Production",
-                "largeImageText": "WesterosCraft Production Server",
-                "largeImageKey": "server-prod"
+                "shortId": "Playing",
+                "largeImageText": "CraftWorld Empires",
+                "largeImageKey": "main"
             },
             "mainServer": true,
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
+                    "id": "net.minecraftforge:forge-1.12.2-14.23.5.2847",
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
                         "size": 4450992,
                         "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
-                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
+                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847-universal.jar"
                     },
                     "subModules": [
                         {
@@ -207,1375 +207,866 @@
                             }
                         },
                         {
-                            "id": "net.minecraftforge:MercuriusUpdater:1.11.2",
-                            "name": "MercuriusUpdater",
+                            "id": "net.minecraftforge:AE2WTLib:1.12.2",
+                            "name": "",
                             "type": "Library",
                             "artifact": {
                                 "size": 15146,
                                 "MD5": "7556d06064ebbfa3b334a15092d725d0",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/MercuriusUpdater-1.11.2.jar"
+                                "url": "http://download854.mediafire.com/zdx57go8x7wg/iqzmyg3w4wm5vte/AE2WTLib-1.12.2-1.0.34.jar"
                             }
                         }
                     ]
                 },
                 {
-                    "id": "com.westeroscraft:westerosblocks:3.2.0-beta-1-190",
-                    "name": "WesterosBlocks",
+                    "id": "com.ae2:ae2",
+                    "name": "AE2Stuff",
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 17376788,
                          "MD5": "370f4f1804c93f498f31af8dac509605",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/WesterosBlocks.jar"
+                        "url": "http://download939.mediafire.com/ewnaqrq85npg/1ebyssrg2xms369/ae2stuff-0.7.0.4-mc1.12.2.jar"
                     }
                 },
                 {
-                    "id": "com.westeroscraft:westeroscraftrp:2019-01-21",
-                    "name": "WesterosCraft Resource Pack",
-                    "type": "File",
-                    "artifact": {
-                        "size": 46999843,
-                        "MD5": "309eb9e5296e9f55cfecb7d4058245a4",
-                        "path": "resourcepacks/WesterosCraft.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/resourcepacks/WesterosCraft.zip"
-                    }
-                },
-                {
-                    "id": "net.optifine:optifine:1.11.2_HD_U_C7",
+                    "id": "net.optifine:optifine:1.12.2_HD_U_F5",
                     "name": "Optifine",
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 2254712,
                         "MD5": "0dd7761e908f9b245bb0dc0fac5649f5",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/OptiFine.jar"
+                "url":"http://download13.mediafire.com/4tdtjzzap3sg/35g85sp5m3x53gx/OptiFine_1.12.2_HD_U_F5.jar"
                     }
                 },
                 {
-                    "id": "mezz:jei:1.11.2-4.5.0.290",
-                    "name": "JustEnoughItems",
+                    "id": "mod.animania.1.12.2",
+                    "name": "Animania",
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 538740,
                         "MD5": "f4d931f6db6210621a86fa1e7eae8016",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/jei.jar"
+                        "url": "http://download2266.mediafire.com/zsmxy5bnv2cg/k7fknn8fh1rbc4v/animania-1.12.2-1.7.3.jar"
                     }
                 },
                 {
-                    "id": "org.blockartistry:dynsurround:1.11.2-3.4.9.3",
-                    "name": "DynamicSurroundings",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
+                    "id": "mod.appleskin.1.12",
+                    "name": "AppleSkinMC",
+                    "type": "ForgeMod"
                     "artifact": {
                         "size": 22291385,
                         "MD5": "65403c66d8b3655b372f58047941d206",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/DynamicSurroundings.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "dsurround.cfg",
-                            "name": "DynamicSurroundings General Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 20258,
-                                "path": "/config/dsurround/dsurround.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/config/dsurround/dsurround.cfg"
-                            }
+                        "url": "http://download853.mediafire.com/w263bbd9oo4g/dz5932734upni9l/AppleSkin-mc1.12-1.0.9.jar"
                         },
-                        {
-                            "id": "westeros.json",
-                            "name": "DynamicSurroundings WesterosCraft Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 608,
-                                "MD5": "44eab112ff24d0bd29974c270de868ba",
-                                "path": "/config/dsurround/westeros.json",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/config/dsurround/westeros.json"
-                            }
-                        }
                     ]
                 },
                 {
-                    "id": "octarine-noise:betterfoliage:1.11.2-2.1.10",
-                    "name": "BetterFoliage",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
+                    "id": "mod.appliedenergistics2,rv6",
+                    "name": "AppliedDenergistics2",
+                    "type": "ForgeMod",                    },
                     "artifact": {
                         "size": 4675903,
                         "MD5": "522fdf73b6e4343cb6243872fb7b4b6c",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/BetterFoliage.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "betterfoliage.cfg",
-                            "name": "BetterFoliage Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 7878,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/betterfoliage.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/config/betterfoliage.cfg"
-                            }
-                        }
-                    ]
+                        "url": "http://download856.mediafire.com/dszqcsovs4eg/woypuk087sn1zf3/appliedenergistics2-rv6-stable-7.jar"
+                    }               
                 },
                 {
-                    "id": "techbrew:journeymap:1.11.2-5.4.7",
-                    "name": "JourneyMap",
+                    "id": "Aquaculture.AC.1.12.2",
+                    "name": "Aquaculture",
                     "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
                     "artifact": {
                         "size": 1735525,
                         "MD5": "1c3380502eb7b9a495581b2402d144df",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/journeymap.jar"
+                        "url": "http://download1602.mediafire.com/crwte58qr89g/zy3wc6g164gqyr5/Aquaculture-1.12.2-1.6.8.jar"
                     }
                 },
                 {
                     "id": "com.github.hexomod:worldeditcuife2:2.1.1-mf-1.11.2-13.20.0.2228",
-                    "name": "WorldEditCUI",
+                    "name": "Baubles",
                     "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
                     "artifact": {
                         "size": 461691,
                         "MD5": "439f82b69f3464969163c188818c677b",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/worldeditcuife.jar"
+                        "url": "http://download2268.mediafire.com/qbboynzs9cpg/4ae97bl3su2fe9x/Baubles-1.12-1.5.2.jar"
                     }
                 },
                 {
                     "id": "mcp.mobius:waila:1.7.1_1.11.2",
-                    "name": "Waila",
+                    "name": "Bdlib",
                     "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
                     "artifact": {
                         "size": 542744,
                         "MD5": "26258a3557bf333e8f4ce8b1e9481031",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/Waila.jar"
-                    }
+                        "url": "http://download2263.mediafire.com/9wixe3i86qgg/1at05ppneu1d396/bdlib-1.14.3.12-mc1.12.2.jar"
+				}
                 },
                 {
-                    "id": "com.mumfrey:liteloader:1.11.2",
-                    "name": "Liteloader",
-                    "type": "LiteLoader",
-                    "required": {
-                        "value": false,
-                        "def": false
-                    },
-                    "artifact": {
-                        "size": 1685422,
-                        "MD5": "3a98b5ed95810bf164e71c1a53be568d",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/liteloader.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "com.mumfrey:macrokeybindmod:0.14.4-1.11.2@litemod",
-                            "name": "Macro/Keybind Mod",
-                            "type": "LiteMod",
-                            "required": {
-                                "value": false,
-                                "def": false
-                            },
-                            "artifact": {
-                                "size": 1670811,
-                                "MD5": "16080785577b391d426c62c8d3138558",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/macrokeybindmod.litemod"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.sonicether:seus:11.0",
-                    "name": "Sonic Ether's Unbelievable Shaders",
-                    "type": "File",
-                    "artifact": {
-                        "size": 175159,
-                        "MD5": "bfa8c31d1da8131b59917bb2460205b1",
-                        "path": "shaderpacks/SEUS v11.0.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/shaderpacks/SEUS.zip"
-                    }
-                },
-                {
-                    "id": "options.txt",
-                    "name": "Default Client Options",
-                    "type": "File",
-                    "artifact": {
-                        "size": 1973,
-                        "path": "options.txt",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/options-1.11.2.txt" 
-                    }
-                },
-                {
-                    "id": "servers.dat",
-                    "name": "Saved Client Servers",
-                    "type": "File",
-                    "artifact": {
-                        "size": 84,
-                        "MD5": "71d99e229d7d2b8d2a6423e46832a4b8",
-                        "path": "servers.dat",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/servers.dat" 
-                    }
-                }
-            ]
-        },
-        {
-            "id": "WesterosCraftTest-1.11.2",
-            "name": "WesterosCraft Test Server",
-            "description": "Main testing server. Experimental changes are live here.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
-            "version": "3.9.4",
-            "address": "mc.westeroscraft.com:4444",
-            "minecraftVersion": "1.11.2",
-            "discord": {
-                "shortId": "Test Server",
-                "largeImageText": "WesterosCraft Test Server",
-                "largeImageKey": "server-test"
-            },
-            "mainServer": false,
-            "autoconnect": true,
-            "modules": [
-                {
-                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2476",
-                    "name": "Minecraft Forge",
-                    "type": "ForgeHosted",
-                    "artifact": {
-                        "size": 4455536,
-                        "MD5": "7cef816cc01d53a04a180f0214d2982a",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/forge-1.11.2-13.20.1.2476-universal.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang (LaunchWrapper)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/launchwrapper-1.12.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-all:5.0.3",
-                            "name": "Mojang (ASM)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 241639,
-                                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/asm-all-5.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-library)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1474672,
-                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-library-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-compiler)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 3076920,
-                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-compiler-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-actors-migration)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 21324,
-                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-continuations-library)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 7956,
-                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-continuations-plugin)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 46140,
-                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-parser-combinators)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 85568,
-                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-reflect)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1070312,
-                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-reflect-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
-                            "name": "Minecraft Forge (scala-swing)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 736795,
-                                "MD5": "1d360289e697022a3f57abaad344b28f",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-swing_2.11-1.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-xml)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 217812,
-                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/scala-xml_2.11-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
-                            "name": "Minecraft Forge (akka-actor)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 746612,
-                                "MD5": "25cb22c3078e9fb3f7a861c912924862",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/akka-actor_2.11-2.3.3.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe:config:1.2.1@jar.pack.xz",
-                            "name": "Minecraft Forge (typesafe-config)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 56636,
-                                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/config-1.2.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "lzma:lzma:0.0.1",
-                            "name": "Mojang (LZMA)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 5762,
-                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/lzma-0.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.trove4j:trove4j:3.0.3",
-                            "name": "Trove4J",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2523218,
-                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/trove4j-3.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "java3d:vecmath:1.5.2",
-                            "name": "Vecmath",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 318956,
-                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/vecmath-1.5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.jopt-simple:jopt-simple:4.6",
-                            "name": "Jopt-simple",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 62477,
-                                "MD5": "13560a58a79b46b82057686543e8d727",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/jopt-simple-4.6.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:MercuriusUpdater:1.11.2",
-                            "name": "MercuriusUpdater",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15146,
-                                "MD5": "7556d06064ebbfa3b334a15092d725d0",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/MercuriusUpdater-1.11.2.jar"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.westeroscraft:westerosblocks:3.2.0-beta-1-190",
-                    "name": "WesterosBlocks",
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2x",
+                    "name": "BetterFPS",
                     "type": "ForgeMod",
-                    "artifact": {
-                        "size": 17376788,
-                         "MD5": "370f4f1804c93f498f31af8dac509605",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/WesterosBlocks.jar"
-                    }
-                },
-                {
-                    "id": "com.westeroscraft:westeroscraftrp:2019-01-21",
-                    "name": "WesterosCraft Resource Pack",
-                    "type": "File",
-                    "artifact": {
-                        "size": 46999843,
-                        "MD5": "309eb9e5296e9f55cfecb7d4058245a4",
-                        "path": "resourcepacks/WesterosCraft.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/resourcepacks/WesterosCraft.zip"
-                    }
-                },
-                {
-                    "id": "net.optifine:optifine:1.11.2_HD_U_C7",
-                    "name": "Optifine",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 2254712,
-                        "MD5": "0dd7761e908f9b245bb0dc0fac5649f5",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/OptiFine.jar"
-                    }
-                },
-                {
-                    "id": "mezz:jei:1.11.2-4.5.1.296",
-                    "name": "JustEnoughItems",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 542399,
-                        "MD5": "584b3099d34c9a1b8649385b90831b34",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/jei.jar"
-                    }
-                },
-                {
-                    "id": "org.blockartistry:dynsurround:1.11.2-3.4.9.3",
-                    "name": "DynamicSurroundings",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 22291385,
-                        "MD5": "65403c66d8b3655b372f58047941d206",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/DynamicSurroundings.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "dsurround.cfg",
-                            "name": "DynamicSurroundings General Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 20849,
-                                "path": "/config/dsurround/dsurround.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/config/dsurround/dsurround.cfg"
-                            }
-                        },
-                        {
-                            "id": "westeros.json",
-                            "name": "DynamicSurroundings WesterosCraft Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 608,
-                                "MD5": "44eab112ff24d0bd29974c270de868ba",
-                                "path": "/config/dsurround/westeros.json",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/config/dsurround/westeros.json"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "octarine-noise:betterfoliage:1.11.2-2.1.10",
-                    "name": "BetterFoliage",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 4675903,
-                        "MD5": "522fdf73b6e4343cb6243872fb7b4b6c",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/BetterFoliage.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "betterfoliage.cfg",
-                            "name": "BetterFoliage Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 7878,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/betterfoliage.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/config/betterfoliage.cfg"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "techbrew:journeymap:1.11.2-5.5.2",
-                    "name": "JourneyMap",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 1799560,
-                        "MD5": "4315e9939bf64bfa963c8674cb13e838",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/journeymap.jar"
-                    }
-                },
-                {
-                    "id": "com.github.hexomod:worldeditcuife2:2.1.2-mf-1.11.2-13.20.0.2228",
-                    "name": "WorldEditCUI",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 461696,
-                        "MD5": "53f6eef360af5329d9e52b5351657908",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/worldeditcuife.jar"
-                    }
-                },
-                {
-                    "id": "mcp.mobius:waila:1.7.1_1.11.2",
-                    "name": "Waila",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
                     "artifact": {
                         "size": 542744,
                         "MD5": "26258a3557bf333e8f4ce8b1e9481031",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/Waila.jar"
-                    }
+                        "url": "http://download2032.mediafire.com/lruudr65nreg/xm9j644urn01bk6/BetterFps-1.4.8.jar"
+				}
                 },
                 {
-                    "id": "com.mumfrey:liteloader:1.11.2",
-                    "name": "Liteloader",
-                    "type": "LiteLoader",
-                    "required": {
-                        "value": false,
-                        "def": false
-                    },
-                    "artifact": {
-                        "size": 1685422,
-                        "MD5": "3a98b5ed95810bf164e71c1a53be568d",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/liteloader.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "com.mumfrey:macrokeybindmod:0.14.4-1.11.2@litemod",
-                            "name": "Macro/Keybind Mod",
-                            "type": "LiteMod",
-                            "required": {
-                                "value": false,
-                                "def": false
-                            },
-                            "artifact": {
-                                "size": 1670811,
-                                "MD5": "16080785577b391d426c62c8d3138558",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/mods/macrokeybindmod.litemod"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.sonicether:seus:11.0",
-                    "name": "Sonic Ether's Unbelievable Shaders",
-                    "type": "File",
-                    "artifact": {
-                        "size": 175159,
-                        "MD5": "bfa8c31d1da8131b59917bb2460205b1",
-                        "path": "shaderpacks/SEUS v11.0.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/shaderpacks/SEUS.zip"
-                    }
-                },
-                {
-                    "id": "options.txt",
-                    "name": "Default Client Options",
-                    "type": "File",
-                    "artifact": {
-                        "size": 1973,
-                        "path": "options.txt",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/options-1.11.2.txt" 
-                    }
-                },
-                {
-                    "id": "servers.dat",
-                    "name": "Saved Client Servers",
-                    "type": "File",
-                    "artifact": {
-                        "size": 87,
-                        "MD5": "594de6063df993b5fde31c7290226ee4",
-                        "path": "servers.dat",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.11.2/servers.dat" 
-                    }
-                }
-            ]
-        },
-        {
-            "id": "WesterosCraftTest-1.12.2",
-            "name": "WesterosCraft 1.12.2 Test Server",
-            "description": "Tests for our version change to 1.12.2 are live here.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
-            "version": "4.2.1",
-            "address": "mc.westeroscraft.com:4445",
-            "minecraftVersion": "1.12.2",
-            "discord": {
-                "shortId": "1.12.2 Test Server",
-                "largeImageText": "WesterosCraft 1.12.2 Test Server",
-                "largeImageKey": "server-test"
-            },
-            "mainServer": false,
-            "autoconnect": true,
-            "modules": [
-                {
-                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2797",
-                    "name": "Minecraft Forge",
-                    "type": "ForgeHosted",
-                    "artifact": {
-                        "size": 4937218,
-                        "MD5": "5320593704af58b3906e7106d27e41c8",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/forge-1.12.2-14.23.5.2797-universal.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang (LaunchWrapper)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/launchwrapper-1.12.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-all:5.2",
-                            "name": "Mojang (ASM)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 247787,
-                                "MD5": "f5ad16c7f0338b541978b0430d51dc83",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/asm-all-5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "jline:jline:2.13",
-                            "name": "Mojang (jline)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 248566,
-                                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jline-2.13.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-library)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1474672,
-                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-library-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-compiler)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 3076920,
-                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-compiler-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-actors-migration)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 21324,
-                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-continuations-library)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 7956,
-                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-continuations-plugin)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 46140,
-                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-parser-combinators)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 85568,
-                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-reflect)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1070312,
-                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-reflect-2.11.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
-                            "name": "Minecraft Forge (scala-swing)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 736795,
-                                "MD5": "1d360289e697022a3f57abaad344b28f",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-swing_2.11-1.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
-                            "name": "Minecraft Forge (scala-xml)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 217812,
-                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-xml_2.11-1.0.2.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
-                            "name": "Minecraft Forge (akka-actor)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 746612,
-                                "MD5": "25cb22c3078e9fb3f7a861c912924862",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/akka-actor_2.11-2.3.3.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe:config:1.2.1@jar.pack.xz",
-                            "name": "Minecraft Forge (typesafe-config)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 56636,
-                                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/config-1.2.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "lzma:lzma:0.0.1",
-                            "name": "Mojang (LZMA)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 5762,
-                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/lzma-0.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.trove4j:trove4j:3.0.3",
-                            "name": "Trove4J",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2523218,
-                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/trove4j-3.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "java3d:vecmath:1.5.2",
-                            "name": "Vecmath",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 318956,
-                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/vecmath-1.5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.jopt-simple:jopt-simple:5.0.3",
-                            "name": "Jopt-simple",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 78175,
-                                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jopt-simple-5.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "org.apache.maven:maven-artifact:3.5.3",
-                            "name": "maven-artifact",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 54961,
-                                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/maven-artifact-3.5.3.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:MercuriusUpdater:1.12.2",
-                            "name": "MercuriusUpdater",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15098,
-                                "MD5": "6eb9e61097bee3103a2fdc42746b76a4",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/MercuriusUpdater-1.12.2.jar"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.westeroscraft:westerosblocks:4.0.0-beta-1-66",
-                    "name": "WesterosBlocks",
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xs",
+                    "name": "BuildCraft",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 17286330,
-                         "MD5": "e5c38ef42e9cc4b957122207dcf95f4f",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/WesterosBlocks.jar"
-                    }
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2263.mediafire.com/kqmowjzh2ybg/6jkh41fp47kmvba/buildcraft-all-7.99.24.5.jar"
+				}
                 },
                 {
-                    "id": "com.westeroscraft:westeroscraftrp:2019-01-21",
-                    "name": "WesterosCraft Resource Pack",
-                    "type": "File",
-                    "artifact": {
-                        "size": 47002312,
-                        "MD5": "86b169611ca0e51fdc47384d8423c402",
-                        "path": "resourcepacks/WesterosCraft.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/resourcepacks/WesterosCraft.zip"
-                    }
-                },
-                {
-                    "id": "net.optifine:optifine:1.12.2_HD_U_E3",
-                    "name": "Optifine",
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xss",
+                    "name": "Chameleon",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 2444057,
-                        "MD5": "7ec95c57ac1a224d6eb93bd370e4ac37",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/OptiFine.jar"
-                    }
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1582.mediafire.com/v225tczxmckg/901fmkhm6vcp27j/Chameleon-1.12-4.1.3.jar"
+				}
                 },
                 {
-                    "id": "mezz:jei:1.12.2-4.14.3.242",
-                    "name": "JustEnoughItems",
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xv",
+                    "name": "Chisel",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 620682,
-                        "MD5": "ae6d0e6e873ef6c20f41097dc7fee8c6",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/jei.jar"
-                    }
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1716.mediafire.com/i0tgo87y6hvg/hrzc72x2ymu9br4/Chisel-MC1.12.2-1.0.1.44.jar"
+				}
                 },
                 {
-                    "id": "org.blockartistry:dynsurround:1.12.2-3.4.10.5",
-                    "name": "DynamicSurroundings",
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xvv",
+                    "name": "Clumps",
                     "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
                     "artifact": {
-                        "size": 22507134,
-                        "MD5": "3d75602c66b7ccfc23c342e8d5e07469",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/DynamicSurroundings.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "dsurround.cfg",
-                            "name": "DynamicSurroundings General Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 22179,
-                                "path": "/config/dsurround/dsurround.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/config/dsurround/dsurround.cfg"
-                            }
-                        },
-                        {
-                            "id": "westeros.json",
-                            "name": "DynamicSurroundings WesterosCraft Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 608,
-                                "MD5": "44eab112ff24d0bd29974c270de868ba",
-                                "path": "/config/dsurround/westeros.json",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/config/dsurround/westeros.json"
-                            }
-                        }
-                    ]
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1845.mediafire.com/1sbwpwneomag/yf048qcjjqm3cje/Clumps-3.1.2.jar"
+				}
                 },
                 {
-                    "id": "octarine-noise:betterfoliage:1.12-2.2.0",
-                    "name": "BetterFoliage",
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "CodeChickenLib",
                     "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
                     "artifact": {
-                        "size": 926081,
-                        "MD5": "e05a720c5900b9bac4e01179abe8eef6",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/BetterFoliage.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "betterfoliage.cfg",
-                            "name": "BetterFoliage Configuration File",
-                            "type": "File",
-                            "artifact": {
-                                "size": 7878,
-                                "MD5": "6dd38f873c4129af05a2d6c500cbe954",
-                                "path": "/config/betterfoliage.cfg",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/config/betterfoliage.cfg"
-                            }
-                        }
-                    ]
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2262.mediafire.com/wwxgpi8mx8sg/kz9us7dq97z70j3/CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
+				}
                 },
                 {
-                    "id": "forgelin:forgelin:1.8.2",
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "CoFHCore",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2146.mediafire.com/5lc2c7dsamgg/hdoozq0rfmsuq9e/CoFHCore-1.12.2-4.6.3.27-universal.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "CoFHWorld",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2268.mediafire.com/d27f93xqzfvg/budowk4rx5tafa7/CoFHWorld-1.12.2-1.3.1.7-universal.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "CraftStudioAPI",
+                    "type": "ForgeMod",http://download1641.mediafire.com/xd9kdtohu8fg/9vzkgks5r1p5cfw/engineers_doors-1.12.2-0.8.0.jar                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2268.mediafire.com/mktotdn271gg/nr1vyzle42bf1et/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "CTMMC",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2265.mediafire.com/ua6ktt8ila1g/68n5s9i4446quai/CTM-MC1.12.2-1.0.1.30.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "DynamicTrees",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2268.mediafire.com/tlqehz523yrg/93cej41hpzkkqgo/DynamicTrees-1.12.2-0.9.7.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Endercore",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2268.mediafire.com/8y05hfbxi64g/7ztcq9nfytjni8y/EnderCore-1.12.2-0.5.73.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "EnderIO",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1590.mediafire.com/0yitpsryztvg/ej99yh796djxjb4/EnderIO-1.12.2-5.1.55.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "EngineersDoors",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1641.mediafire.com/xd9kdtohu8fg/9vzkgks5r1p5cfw/engineers_doors-1.12.2-0.8.0.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "ExtraUtils",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2266.mediafire.com/men1jtq0nksg/n9gsk4mfdpur4qs/extrautils2-1.12-1.9.9.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "ExtremeReactors",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1494.mediafire.com/bcsm5p1223xg/nna9fsvfuwx7sx9/ExtremeReactors-1.12.2-0.4.5.67.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "FluxNetworks",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://www.mediafire.com/file/ywog4yamwzhx3zn/fluxnetworks-1.12.2-4.0.14-31.jar/file"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Forestry",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download864.mediafire.com/02cbyzge6gbg/ruyv1ex7lcaus7e/forestry_1.12.2-5.8.2.387.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "ForgeEndertech",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1073.mediafire.com/deyf7gpggt7g/ot55pr6xevy5vl8/ForgeEndertech-1.12.2-4.5.0.0-build.0435.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
                     "name": "Forgelin",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 5124663,
-                        "MD5": "59035365f7af35f599d1c4baade64d8b",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/Forgelin.jar"
-                    }
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2263.mediafire.com/jyoorvxphepg/l534dulxl7t9zmj/Forgelin-1.8.4.jar"
+				}
                 },
                 {
-                    "id": "techbrew:journeymap:1.12.2-5.5.3",
-                    "name": "JourneyMap",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 1831161,
-                        "MD5": "d3b5a672d2393f9fe63903598d50c769",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/journeymap.jar"
-                    }
-                },
-                {
-                    "id": "com.github.hexomod:worldeditcuife2:2.2.0-mf-1.12.2-14.23.5.2768",
-                    "name": "WorldEditCUI",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false
-                    },
-                    "artifact": {
-                        "size": 459294,
-                        "MD5": "2b8c1c3bc48c2d80b71daa658f656edb",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/worldeditcuife.jar"
-                    }
-                },
-                {
-                    "id": "com.mumfrey:liteloader:1.12.2",
-                    "name": "Liteloader",
-                    "type": "LiteLoader",
-                    "required": {
-                        "value": false,
-                        "def": false
-                    },
-                    "artifact": {
-                        "size": 1680383,
-                        "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/liteloader.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "com.mumfrey:macrokeybindmod:0.15.4-1.12.1@litemod",
-                            "name": "Macro/Keybind Mod",
-                            "type": "LiteMod",
-                            "required": {
-                                "value": false,
-                                "def": false
-                            },
-                            "artifact": {
-                                "size": 1726452,
-                                "MD5": "9ba3ed960bbb676743a3b6c2e1efc484",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/mods/macrokeybindmod.litemod"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "com.sonicether:seus-renewed:1.0.0",
-                    "name": "Sonic Ether's Unbelievable Shaders Renewed",
-                    "type": "File",
-                    "artifact": {
-                        "size": 7062491,
-                        "MD5": "e68cc9f8ffc8fad66583b9b2cc05356f",
-                        "path": "shaderpacks/SEUS-Renewed.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/shaderpacks/SEUS-Renewed.zip"
-                    }
-                },
-                {
-                    "id": "options.txt",
-                    "name": "Default Client Options",
-                    "type": "File",
-                    "artifact": {
-                        "size": 1973,
-                        "path": "options.txt",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/options-1.12.2.txt" 
-                    }
-                },
-                {
-                    "id": "servers.dat",
-                    "name": "Saved Client Servers",
-                    "type": "File",
-                    "artifact": {
-                        "size": 87,
-                        "MD5": "64dc1db90935997f07dfac422206f1de",
-                        "path": "servers.dat",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/test-1.12.2/servers.dat" 
-                    }
-                }
-            ]
-        },
-        {
-            "id": "WesterosCraftTest-1.13.2",
-            "name": "WesterosCraft 1.13.2 Test Server",
-            "description": "Tests for our version change to 1.13.2 are live here.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
-            "version": "5.0.0",
-            "address": "mc.westeroscraft.com:4445",
-            "minecraftVersion": "1.13.2",
-            "discord": {
-                "shortId": "1.13.2 Test Server",
-                "largeImageText": "WesterosCraft 1.13.2 Test Server",
-                "largeImageKey": "server-test"
-            },
-            "mainServer": false,
-            "autoconnect": false,
-            "modules": [
-                {
-                    "id": "net.minecraftforge:forge:1.13.2-25.0.219",
-                    "name": "Minecraft Forge (base jar)",
-                    "type": "ForgeHosted",
-                    "artifact": {
-                        "size": 159918,
-                        "MD5": "c5a9c40711feb2b4ab0329c48256e30d",
-                        "url": ""
-                    },
-                    "subModules": [
-                        {
-                            "id": "net.minecraftforge:forge:1.13.2-25.0.219:universal",
-                            "name": "Minecraft Forge (universal jar)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2343272 ,
-                                "MD5": "338c495d266da44ac1955caf91cc14c4",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:forge:1.13.2-25.0.219:client",
-                            "name": "Minecraft Forge (client jar)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 3065519,
-                                "MD5": "df63f7288a8118c9b8836a3e53827aac",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraft:client:1.13.2:extra",
-                            "name": "Minecraft Forge (client extra)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 9622361,
-                                "MD5": "dc66e2219e3de6e7ca05847fd3c7746d",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraft:client:1.13.2-20190213.203750:srg",
-                            "name": "Minecraft Forge (client srg)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 8198877,
-                                "MD5": "80f355cffe270d2c2943301b96d98fa6",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "1.13.2-forge-25.0.219",
-                            "name": "Minecraft Forge (version.json)",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 11511,
-                                "MD5": "f13f9e20324d0a55c646d5fb8876b2bb",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "com.paulscode:soundsystem:201809301515",
-                            "name": "Minecraft Forge (Paul's Code Soundsystem)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 66607,
-                                "MD5": "bf43e7b9f628534614b3fc5e4e69d209",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm:6.2",
-                            "name": "Minecraft Forge (asm)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 111214,
-                                "MD5": "7abdce94068615d690495f45eb6eb980",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-commons:6.2",
-                            "name": "Minecraft Forge (asm-commons)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 78919,
-                                "MD5": "a031c9a32770c02c2f91d2bcbeceabcd",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-tree:6.2",
-                            "name": "Minecraft Forge (asm-tree)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 50370,
-                                "MD5": "e7279981c6764dcd73a99705acf5c9a6",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "cpw.mods:modlauncher:2.1.1",
-                            "name": "Minecraft Forge (modlauncher)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 101586,
-                                "MD5": "089ae3cf5afe10e96bb930b70dd99402",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "cpw.mods:grossjava9hacks:1.1.0",
-                            "name": "Minecraft Forge (Gross Java 9 Hacks)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1759,
-                                "MD5": "1adde27730734a786f461ed048d440a0",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:accesstransformers:0.16.0-shadowed",
-                            "name": "Minecraft Forge (Access Transformers)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 444428,
-                                "MD5": "dbe346d662c7bdff0988f941342932e6",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:eventbus:0.9.2-service",
-                            "name": "Minecraft Forge (EventBus)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 38908,
-                                "MD5": "77c6c079914a8369a185e11ae1a7a878",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:forgespi:0.13.0",
-                            "name": "Minecraft Forge (Forge SPI)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 16607,
-                                "MD5": "5634ba7001f8501a2b553430e2068751",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:coremods:0.5.0",
-                            "name": "Minecraft Forge (coremods)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 12284,
-                                "MD5": "d3da5879965cf6f37413d6d1a80d92a7",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:unsafe:0.2.0",
-                            "name": "Minecraft Forge (unsafe)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2834,
-                                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "com.electronwill.night-config:core:3.6.0",
-                            "name": "Minecraft Forge (night-config core)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 199763,
-                                "MD5": "841adeca8f5e5e092c7bafb412dcb615",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "com.electronwill.night-config:toml:3.6.0",
-                            "name": "Minecraft Forge (night-config toml)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 31256,
-                                "MD5": "2d1d5f1fa4735b4e654613b493512432",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.jline:jline:3.9.0",
-                            "name": "Minecraft Forge (jline)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 707273,
-                                "MD5": "2db9aae140f810a72fc4a5cb5aa5cf9b",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.apache.maven:maven-artifact:3.6.0",
-                            "name": "Minecraft Forge (maven-artifact)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 55051,
-                                "MD5": "89e95013b11f347e48c0525965600404",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.jodah:typetools:0.6.0",
-                            "name": "Minecraft Forge (typetools)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 14734,
-                                "MD5": "9f65b6e90eb986fe25afc39b8ed3f43b",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "java3d:vecmath:1.5.2",
-                            "name": "Minecraft Forge (vecmath)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 318956,
-                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.apache.logging.log4j:log4j-api:2.11.2",
-                            "name": "Minecraft Forge (log4j-api)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 266283,
-                                "MD5": "3f7ee51e3dd0830de799dae0b90243dd",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "org.apache.logging.log4j:log4j-core:2.11.2",
-                            "name": "Minecraft Forge (log4j-core)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1629585,
-                                "MD5": "c8bd8b5c5aaaa07a3dcbf57de01c9266",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.minecrell:terminalconsoleappender:1.1.1",
-                            "name": "Minecraft Forge (terminalconsoleappender)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15240,
-                                "MD5": "a190e88073a41dfa1b1d47854c41230b",
-                                "url": ""
-                            }
-                        },
-                        {
-                            "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
-                            "name": "Minecraft Forge (jopt-simple)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 78146,
-                                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
-                                "url": ""
-                            }
-                        }
-                        
-                    ]
-                },
-                {
-                    "id": "squeek:appleskin:1.0.11",
-                    "name": "AppleSkin (test mod)",
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "FTBBackups",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 27382,
-                         "MD5": "a1c0cfed77b2cb7b6699e59ba0252a50",
-                        "url": ""
-                    }
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1582.mediafire.com/fzcf632nhrvg/sq5ycmnirqdi8wf/FTBBackups-1.1.0.1.jar"
+				}
                 },
                 {
-                    "id": "com.blamejared:controlling:4.0.1",
-                    "name": "Controlling (Test Mod)",
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "FTBLib",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 34914,
-                         "MD5": "b4dc10b9039518ce00845ca962e6a136",
-                        "url": ""
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1327.mediafire.com/576lvpflyjfg/3ztl15hhj1yhou4/FTBLib-5.4.7.0.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "FTBUtils",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1327.mediafire.com/576lvpflyjfg/3ztl15hhj1yhou4/FTBLib-5.4.7.0.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Gens",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1580.mediafire.com/y52d6g0claug/fn5p87xehe35zde/generators-0.9.20.12-mc1.12.2.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Gravestone",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2267.mediafire.com/ti7lvvydgvqg/3sjxeag3mw8bkhv/gravestone-1.10.3.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "GuideApi",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1581.mediafire.com/tu63r1o69chg/5obpllxq0e6ueac/Guide-API-1.12-2.1.8-63.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Guns",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1644.mediafire.com/x3uxbc64d0ig/4ytu2k2a00pyvox/guns-0.15.3-1.12.2.jar"
+ 				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "HammerCore",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1496.mediafire.com/9tylv3r5v6zg/awvbxytrg6ra3iz/HammerCore-1.12.2-2.0.6.13.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Hwyla",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2263.mediafire.com/4y099u3tsnsg/0bpwyb3th7av16f/Hwyla-1.8.26-B41_1.12.2.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "ImmersiveEngineering",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1585.mediafire.com/7ulozce21uxg/hq1csny2qxb0wka/ImmersiveEngineering-0.12-92.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "ImprovableSkills",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1649.mediafire.com/5v5tskdhxxag/keg4m5zxulnro7z/ImprovableSkills-1.12.2-65r.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "IndForegoing",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2263.mediafire.com/3ebmas3yfpsg/i0tt7rripku64fh/industrialforegoing-1.12.2-1.12.13-237.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "InvTweaks",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2268.mediafire.com/jcfgxobrebig/0ktv4k4o4aztu0i/InventoryTweaks-1.63.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "IronChest",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2268.mediafire.com/4x3c1h7lx4fg/fvs04m75vsechbo/ironchest-1.12.2-7.0.72.847.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "ItemBlacklist",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1505.mediafire.com/uhdxil4edfyg/6bj5zig5f9fzlvk/ItemBlacklist-1.4.3.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "jei",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2267.mediafire.com/ibzwqwuklw0g/yjhsyu0o6n86olz/jei_1.12.2-4.15.0.291.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "jepb",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1506.mediafire.com/df2zck1gdibg/xzmzzbo59jc5k53/jepb-1.12-1.2.1.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "journeymap",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2267.mediafire.com/35yls51f7ppg/buq9ye9qwrqcho1/journeymap-1.12.2-5.7.0.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "JEE",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download851.mediafire.com/kb24m3qwrf6g/26c0xhpnx0t8zxx/JustEnoughEnergistics-1.12.2-1.0.8.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "JER",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2266.mediafire.com/06lge7azdrug/157ut81l4170cqc/JustEnoughResources-1.12.2-0.9.2.60.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "MalasisCore",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2267.mediafire.com/9xp6gecjdndg/s6o4i5ppug2zdkp/malisiscore-1.12.2-6.5.1.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "MalasisDoors",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1352.mediafire.com/15qcp8lt05sg/zlmt2e6p8s3omny/malisisdoors-1.12.2-7.3.0.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Mantle",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2267.mediafire.com/3g0uvgnmm5pg/60sggvn87zk6toe/Mantle-1.12-1.3.3.55.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Mcjtylib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2260.mediafire.com/5b3589lcn2kg/76ned6faq8us0ak/mcjtylib-1.12-3.5.4.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "MCTIT",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download847.mediafire.com/67kgdwwxcg2g/p3jdicuf1ob8co0/MCTImmersiveTechnology-1.12.2-1.7.52.jar"
+ 				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Mekanism",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download850.mediafire.com/yk05ja07fdzg/n4do7try7abrapr/Mekanism-1.12.2-9.8.3.390.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "MekGen",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1643.mediafire.com/3ty8wclcb6eg/dlahts11qt2pyc9/MekanismGenerators-1.12.2-9.8.3.390.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Mektools",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download942.mediafire.com/ycv4o0df9zdg/l29x1f1cc6cdy8k/MekanismTools-1.12.2-9.8.3.390.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Millenaire",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1638.mediafire.com/7beokv8aqi2g/jdlv5bkdafkbp1q/millenaire-1.12.2-8.0.1.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Morpheus",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download25.mediafire.com/uaxy56pd1q8g/ykzyv7j3bhmkjjd/Morpheus-1.12.2-3.5.106.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "MouseTweaks",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2263.mediafire.com/w4qbwngd05zg/e2mkus2r0qzjgvv/MouseTweaks-2.10-mc1.12.2.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Obfuscate",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download856.mediafire.com/ay42ajivftcg/4u87e2a49bafxem/obfuscate-0.2.7-1.12.2.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "omlib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download856.mediafire.com/sgwl4cfao7bg/uv6rxdmdwhye8ts/omlib-1.12.2-3.1.4-249.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "OpenModTurrets",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download855.mediafire.com/x6x2wlvxjbsg/asrqsf3iuohjdc4/openmodularturrets-1.12.2-3.1.7-367.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Orelib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2261.mediafire.com/whx135j8z4mg/j3ff3ryvw3m2368/OreLib-1.12.2-3.6.0.1.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Passwordslib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1484.mediafire.com/ytzu5fzqamwg/k1jybnmqd3caa5g/p455w0rdslib-1.12.2-2.3.161.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "PamsHarvest",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2266.mediafire.com/8ihjrr0b65ug/y2dyfmki71dsnje/Pam%5C%27s+HarvestCraft+1.12.2zg.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "PrimalCore",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1595.mediafire.com/sz1ubs3s0adg/xuu5k1efba67d8v/PrimalCore-1.12.2-0.6.105.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "RedstoneFlux",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": http://download2265.mediafire.com/o062lncqt3vg/jritypggmu96r1r/RedstoneFlux-1.12-2.1.0.6-universal.jar""
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "RefinedStorage",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1647.mediafire.com/skmizwe9x43g/h6efgel5v7lg0e5/refinedstorage-1.6.15.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Reskillable",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2262.mediafire.com/9t5jey0c86bg/aqbhena0ljnclsm/Reskillable-1.12.2-1.13.0.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Rftools",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1474.mediafire.com/5w08ue62keig/dw6ml4wddfznx2c/rftools-1.12-7.73.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "rustic",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2267.mediafire.com/0deicnedkkag/2g0fe0vaigyeb7i/rustic-1.1.2.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Jetpacks2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1495.mediafire.com/y4pj83t269gg/sm47madivkl28l1/SimplyJetpacks2-1.12.2-2.2.14.67.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "TC",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2267.mediafire.com/9n31gjtky9dg/k8kc0lhgnbj9v0n/TConstruct-1.12.2-2.13.0.183.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Terrarium",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1639.mediafire.com/hlg7nc6u3pxg/qlxq22bcpizdg0y/terrarium-1.0.3.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "TeslaCoreLib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1081.mediafire.com/92usakjxysjg/74y9i6ripx82pd1/tesla-core-lib-1.12.2-1.0.17.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "ThermalDyn",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1513.mediafire.com/mrimdm0wp5rg/w7tsalvl73vvq2x/ThermalDynamics-1.12.2-2.5.5.21-universal.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "ThermalExp",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download746.mediafire.com/6u4br2pws86g/45c7cu16kk21gy0/ThermalExpansion-1.12.2-5.5.4.43-universal.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "ThermalFound",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download2261.mediafire.com/ixy8h1zac35g/2giwrtxvz9s68zy/ThermalFoundation-1.12.2-2.6.3.27-universal.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "ThermalInno",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download936.mediafire.com/lcmrwqzhkupg/tl6rqxyz306ysaw/ThermalInnovation-1.12.2-0.3.3.12-universal.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "UniDict",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1508.mediafire.com/qgdcrbx1ys2g/umbq1x8fuopfseb/UniDict-1.12.2-2.9.6.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Vehicles",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1335.mediafire.com/rygjycwhwvbg/lcll1u2lz90q5il/vehicle-mod-0.43.5-1.12.2.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "WanionLib",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download948.mediafire.com/l7p0buz9movg/0fiy20nl32v768u/WanionLib-1.12.2-2.4.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "ZeroCore",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1500.mediafire.com/s9uw9dryi2pg/t0wzjlv3sxhtlh5/zerocore-1.12.2-0.1.2.8.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "Wawla",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download856.mediafire.com/xk6586dl54cg/bmz94bdcskqblav/Wawla-1.12.2-2.6.274.jar"
+				}
+                },
+                {
+                    "id": "mcp.mobius:waila:1.7.1_1.11.2xbc",
+                    "name": "WifiCraft",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 542744,
+                        "MD5": "26258a3557bf333e8f4ce8b1e9481031",
+                        "url": "http://download1593.mediafire.com/x8qvvhuv2ndg/vs3wvnwvfani6zl/WirelessCraftingTerminal-1.12.2-3.12.97.jar"
+
                     }
                 }
             ]
